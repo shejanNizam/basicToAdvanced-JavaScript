@@ -34,17 +34,26 @@
           const b = isNaN(4 - "hello"); --> true
 
 5. Operators 
-     some operator --> 
+     * some operator --> 
         ( + = Addition, - = Subtraction, * = multiply, / = division, 
          % = modulus(Remainder), ++ = plus plus, -- = minus minus )  
-     for addition if any one data type is string type then concatenate      
+     * for addition if any one data type is string type then concatenate      
          conat a = "44"; const b = 5; 
          const a + b = 445;
 
-6. Shorthand
-     const price = 30;
-     price = price + 10;
-     price += 10; price -= 10; price *= 10; price /= 10; price %= 10;
+6. Shorthands
+     * const price = 30;
+
+     * price = price + 10;
+          * price += 10; 
+     * price = price - 10;
+          * price -= 10; 
+     * price = price * 10;
+          * price *= 10; 
+     * price = price / 10;
+          * price /= 10; 
+     * price = price % 10;
+          * price %= 10;
 
 
 */
