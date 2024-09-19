@@ -1,5 +1,5 @@
 const first = "I Learn";
-const second = "JavaScript";
+const second = "Javascript";
 const result = first + " " + second;
 
 console.log(result);
