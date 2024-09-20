@@ -1,0 +1,37 @@
+### Notes for Array
+
+** Array enables storing a collection of multiple items under a single variable name. like 
+            var numArray = [ 1, 2, 3, 4, 5 ];
+
+1. some simple method of Array 
+    * index --> starts must be from 0(zero)
+    * length --> total element of array 
+    * find/get indexWise element 
+            arrayName[indexNumber] like numArray[2] = 3
+    * set indexWise new element 
+            numArray[1] = 99;
+    * for add array element in last
+            numArray.push(99, 88, 77);
+    * for remove array element in last 
+            numArray.pop(); --> remove one
+            numArray.pop() ;--> remove two
+    * for add array element in fast
+            numArray.shift();
+    * for remove array element in fast
+            numArray.unshift(99);
+    * for query any element 
+            numArray.includes(3);
+    * for any elements index index Number
+            numArray.indexOf(3);
+    * for inquery Array or Not
+            Array.isArray(numArray);
+    * for joining all arrays elements in outside
+            numArray.join('+/|/something'); default --> ,(comma)
+    * for two array added
+            array1 = [1,2,3,4];
+            array2 = [1,2,3,4];
+            array1.concat(array2);
+    * for cut some elements in array 
+            numArray.slice(2,4);
+            numArray.splice(5,2);
+    * for 

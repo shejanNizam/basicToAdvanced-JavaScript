@@ -1,0 +1,75 @@
+### Notes for Conditions
+
+1. condition 
+    * if-else
+        if(condition){
+            execute code if condition above is true
+        }else{
+            execute code if condition above is false
+        }
+    note: condition should be one or multiple(join with &&/||).
+
+    * multiple if-else
+        if(condition){
+            execute code if condition above is true
+        }else if (condition){
+            execute code if condition above is true
+        }else{
+            execute code if condition above is false
+        }
+
+    * nested if-else 
+        if(...){
+            if(...){
+                ...
+            }else{
+                ...
+            }
+        }else{
+            ...
+        }
+
+    * switch-case
+        let x = 2;
+        switch (x) {
+          case 0:
+            text = "Off";
+            break;
+          case 1:
+            text = "On";
+            break;
+          case 2:
+            text = "OnOff";
+            break;
+          default:
+            text = "No value found";
+        }
+
+
+2. Ternary Operator --> 3 parts
+    condition ? do somethtings when true : do somethtings when false;
+    condition1 ? 
+        condition2 ? do somethtings when true : do somethtings when false 
+        : do somethtings when true;
+
+3. Logical not Operator
+        if(!condition){
+            execute code if condition above is true
+        }else{
+            execute code if condition above is false
+        }
+    note: condition = !condition
+
+4. 
+
+
+
+
+
+
+
+
+
+
+
+
