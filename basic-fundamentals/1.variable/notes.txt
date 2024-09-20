@@ -1,0 +1,59 @@
+### Notes for variable
+
+** Javascript is high-level and interpreted language, JIT(Just in Time) Compiled / Dynamic updated content, control multimedia, animate image, Pretty much everything else
+
+1. variable declaretion ( 5 things must know for this )
+     * variable is a storage or container where data stored. 
+          const age = 22;
+
+2. variable data type ( number, string, boolean, null, undefined, NaN )
+     * const age = 22; --> number 
+     * const name = "Nizam"; --> string
+     * const isTrue = true; --> boolean 
+     * const name;
+
+3. naming convention ( snake_case, camelCase, PascalCase ) + some keyword
+     * can't be a reserved keyword
+     * should be a meaningful
+     * can't start with number(1name)
+     * can't contain a space or hyphen(-)
+     * case sensitive( name != Name )
+
+4. Fundamentals of JS Number
+     * for type check of any variable use --> typeof
+     * for stringIntNumber("5") to IntNumber(5) use --> parseInt
+     * for stringFloatNumber("5.5") to FloatNumber(5.5) use --> parseFloat
+     * for 50 / 0 --> Infinity
+     * for -50 / 0 --> -Infinity
+     * for string to number
+          let x = "10";
+          let num = Number(x);
+     * for isNaN
+          const a = isNaN(9); --> false
+          const b = isNaN(4 - "hello"); --> true
+
+5. Operators 
+     * some operator --> 
+        ( + = Addition, - = Subtraction, * = multiply, / = division, 
+         % = modulus(Remainder), ++ = plus plus, -- = minus minus )  
+     * for addition if any one data type is string type then concatenate      
+         conat a = "44"; const b = 5; 
+         const a + b = 445;
+
+6. Shorthands
+     * const price = 30;
+
+     * price = price + 10;
+          * price += 10; 
+     * price = price - 10;
+          * price -= 10; 
+     * price = price * 10;
+          * price *= 10; 
+     * price = price / 10;
+          * price /= 10; 
+     * price = price % 10;
+          * price %= 10;
+
+
+
+
