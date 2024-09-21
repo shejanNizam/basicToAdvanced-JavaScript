@@ -1,0 +1,24 @@
+### Notes for Object 
+
+** Object is a non-primitive data type.
+
+1. get-set-access-change object properties
+        const person = {
+          name: "Nizam Uddin",
+          age: 22,
+          profession: "Developer",
+          isMarrid: true,
+        };
+    * dot Notation --> person.age 
+    * bracket Notation --> person['age'] 
+    * change property value --> person.age = 23, person['age'] 
+
+2. keys, values, 
+    * access all keys --> Object.keys(person);
+    * access all values --> Object.values(person);
+    * delete property --> delete person.profession;
+
+3. create object 
+    * const pencil = new Object();
+    * const pencil = Object.create({}/null/...);
+    * 
