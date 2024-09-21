@@ -1,0 +1,14 @@
+### Notes for function 
+
+** Function is a method that 
+
+1. basic function 
+    function funcName(){
+        function er block...
+    }
+    funcName() --> call the function
+
+2. return type function 
+    * return a value 
+
+    
