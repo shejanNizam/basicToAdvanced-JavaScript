@@ -1,0 +1,29 @@
+### Notes for String 
+
+** String ei somethings like 
+
+1. some type of String
+    * const country = 'Bangladesh';
+    * const district = "Bogura";
+    * const location = `B-Baria`;
+    * const thana = new String("Sadar"); --> Special   
+
+2. some operation with string 
+    const capital = 'Dhaka';
+        capital.length  --> valid
+        capital[0] = 'F' --> invalid 
+            string is immutable/unchangeable
+
+3. string comparison 
+    * capital.toUpperCase();
+    * capital.toLowerCase();
+    * capital.trim(); --> white space remove from start & end.
+
+4. some more operation 
+    * capital.slice(2,5) --> from 2 index to before index 5.
+    * capital.split(',/...') --> devided string with (, or space or latter)
+    * capital.join(',/...') --> join string with (, or space or latter)
+    * fast.concat(' ').concat(last) --> Nizam Uddin
+    * capital.includes("a"); --> true
+
+5. 

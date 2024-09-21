@@ -1,0 +1,15 @@
+### Notes for loops
+
+** loops is somethings 
+
+1. some useful loops 
+    * while loop
+    * for loop
+    * do-while loop
+
+2. break continue 
+    * break --> I am done with this loop, end the loop 
+    * continue --> skip rest of the code for this iteration.
+
+
+
