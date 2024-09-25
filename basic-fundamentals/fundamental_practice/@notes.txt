@@ -1,0 +1,28 @@
+### Notes for some js fundamentals 
+
+** somethings 
+
+1. some math relaetd method 
+    * Math.min(1,2,3,4,5,6,7); --> 1
+    * Math.max(1,2,3,4,5,6,7); --> 7
+    * Mamth.PI 
+    * Mamth.abs()
+    * Mamth.round()
+    * Mamth.floor()
+    * Mamth.ceil()
+    * Math.random() --> 0 to 1 (any number)
+
+2. JS Date and Time related 
+    * const today = new Date();
+    * const today = new Date("");
+    * 
+
+3. Temp 
+    let a=5;
+    let b=7;
+
+    const temp = a
+    a = b;
+    b = temp;
+
+4. 
