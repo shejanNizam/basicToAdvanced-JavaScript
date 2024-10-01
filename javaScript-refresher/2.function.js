@@ -1,48 +1,26 @@
-//### scope -->***
-
-var lang = "Bangla";
-
-function learn(topic) {
-  lang = topic;
-  //   console.log(`I am learning ${topic}`);
-}
-
-learn("JavaScript");
-
-// console.log(`I know ${lang}`);
-
-//-------------------------------------------------------------
-
 // function -->***
 
-// regular function -- also function statement
-/*
+//system -- 01: regular function -- also function statement
 function hello() {
   console.log("Hello World");
   //   return undefined; --> if no return by default return undefined.
 }
 let msg = hello();
 console.log(msg);
-*/
 
-// function expression --
-/*
+//system -- 02: function expression --
 const hello = function () {
   console.log("hello World");
 };
 hello();
-*/
 
-// named function expression -- standard practice
-/*
+//system -- 03: named function expression -- standard practice
 const hello = function hello() {
   console.log("hello World");
 };
 hello();
-*/
 
-// arrow function --
-/*
+//system -- 04: arrow function --
 const hello = () => {
   console.log("Hello World");
 };
@@ -56,15 +34,10 @@ const returnObj = () => {
   };
 };
 console.log(returnObj());
-*/
 
-// anonymous function
-/*
+//system -- 05: anonymous function
 function hello() {
   return () => {
     console.log("Hello World");
   };
 }
-*/
-
-// event handler --> ***

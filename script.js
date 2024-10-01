@@ -1,7 +1,7 @@
-// const first = "I Learn";
-// const second = "Javascript";
-// const result = first + " " + second;
+// let first = "I Learn";
+// let second = "Javascript";
+// let result = first + " " + second;
 
 // console.log(result);
 
-console.log("shejan");
+// console.log("Hello World");
