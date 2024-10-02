@@ -3,5 +3,6 @@
 // let result = first + " " + second;
 
 // console.log(result);
+const fruits = ["Mango", "Banana", "Orange", "Lichi", "Apple"];
 
-// console.log("Hello World");
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
