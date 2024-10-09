@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Delegation</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>ইভেন্ট ডেলিগেশন কি?</h1>
+
+      <p>
+        একাধিক এলিমেন্টের জন্য
+        <span class="highlight">একটাই ইভেন্ট লিসেনার রাখা</span> এবং
+        <span class="highlight">নতুন এলিমেন্ট</span> যোগ করলেও যেন লিসেনার কাজ
+        করে।
+      </p>
+
+      <div class="languages">
+        <ul id="list">
+          <li>JavaScript</li>
+          <li>PHP</li>
+          <li>JAVA</li>
+          <li>Python</li>
+          <li>TypeScript</li>
+        </ul>
+
+        <div>
+          <button onclick="addNewElement()">Add New Element</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
