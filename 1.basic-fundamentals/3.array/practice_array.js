@@ -35,3 +35,9 @@ for (const num of numbers) {
 }
 console.log(rev_numbers);
 //---------------------
+
+//  array reduce method
+
+const sum = numbers.reduce((total, currValue) => total + currValue);
+
+console.log(sum);
