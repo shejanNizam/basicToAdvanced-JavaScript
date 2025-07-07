@@ -22,3 +22,7 @@ const reversed = sentence.split("").reverse().join("");
 console.log(reversed);
 
 //------------------
+const name = "John";
+
+const strName = new String("nizam");
+console.log(strName);
